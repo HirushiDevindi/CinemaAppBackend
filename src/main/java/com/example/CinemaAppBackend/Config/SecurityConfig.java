@@ -81,7 +81,7 @@ public class SecurityConfig {
                     authorize.antMatchers("/api/user/logout").permitAll();
                     authorize.antMatchers("/api/user/signup").permitAll();
                     authorize.antMatchers("/api/user/signin").permitAll();
-                    authorize.antMatchers( "/api/user/{id}").hasAuthority("USER");
+                    authorize.antMatchers( "/api/user/{id}").hasAuthority("USER"); // role base authentication
                     authorize.antMatchers("/movie","/movie/{id}").hasAuthority("USER");
                     authorize.antMatchers("/show/**").hasAuthority("USER");
                     authorize.antMatchers("/seat/**").hasAuthority("USER");
