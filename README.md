@@ -5,7 +5,7 @@ Handling the activities related to the Cinema Industry. The main objective of th
 - Cinema Side
 * Movie Fan Side
 
-This project will be based on the **CINEMA SIDE** of this appliaction.
+This project will be based on the **CINEMA SIDE** of this application.
 
 ## Basic Functionalities
 - **Create / Edit Cinema Profile**: As a cinema side user, you can create and edit your account/profile, providing essential information to the system.
